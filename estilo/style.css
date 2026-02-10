@@ -21,8 +21,7 @@
 }
 
 html, body {
-    height: 100%;
-    overflow-y: auto;
+    width: 100%;
     /*background-image: linear-gradient(180deg, #4a6093, #4B4A94,#4A7794);*/
 }
 
@@ -31,7 +30,8 @@ header > h1 {
 }
 
 main {
-    overflow-x: hidden;
+    padding: 10px;
+    overflow: hidden;
 }
 
 section {
@@ -50,7 +50,6 @@ section {
 }
 
 fieldset {
-    min-width: 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
