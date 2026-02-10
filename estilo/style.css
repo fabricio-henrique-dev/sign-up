@@ -5,6 +5,7 @@
 * {
     font-family: "Montserrat", Arial, Verdana, Helvetica, sans-serif;
     box-sizing: border-box;
+    /*outline: 1px solid red;*/
 }
 
 :root {
@@ -29,11 +30,8 @@ header > h1 {
     text-align: center;
 }
 
-main {
-    padding: 20px;
-}
-
 section {
+    width: 100%;
     max-width: 700px;
     min-height: 200px;
     margin: auto;
@@ -48,6 +46,7 @@ section {
 }
 
 fieldset {
+    min-width: 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
