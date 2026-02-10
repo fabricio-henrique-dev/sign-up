@@ -4,6 +4,7 @@
 
 * {
     font-family: "Montserrat", Arial, Verdana, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 :root {
@@ -19,10 +20,8 @@
 }
 
 html, body {
-    height: 100vh;
-    width: 100vw;
-    overflow-x: hidden;
-    box-sizing: border-box;
+    height: 100%;
+    overflow-y: auto;
     /*background-image: linear-gradient(180deg, #4a6093, #4B4A94,#4A7794);*/
 }
 
