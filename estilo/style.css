@@ -39,8 +39,7 @@ main {
 }
 
 section {
-    max-width: 700px;
-    min-height: 200px;
+    max-width: 600px;
     margin: auto;
     font-size: 1.2em;
     border: 1px solid black;
@@ -70,24 +69,24 @@ fieldset > legend {
 }
 
 input {
-    max-width: 120px;
+    max-width: 150px;
     margin: 0px 0px 15px 0px;
-    padding: 8px;
-    transition: all 0.3s;
+    padding: 10px;
+    transition: all 0.2s;
 }
 
 input:focus {
     outline: none;
-    border: 2px solid rgba(0, 0, 255, 0.700);
+    border: 1px solid rgba(0, 0, 255, 0.700);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.300);
 }
 
 input[type=text] {
-    max-width: 350px;
+    max-width: 400px;
 }
 
 input[type=email] {
-    max-width: 150px;
+    max-width: 200px;
 }
 
 input[type=password] {
@@ -104,7 +103,7 @@ input[type=radio] {
 
 input[type=submit], input[type=reset] {
     margin: 5px 0px 2px 0px;
-    font-size: 1rem;
+    font-size: 1em;
     cursor: pointer;
     padding: 8px;
 }
@@ -125,5 +124,5 @@ input[type=reset]:hover {
 .default {
     font-size: 12px;
     padding: 0px;
-    margin: -20px 0px 7.5px 0px;
+    margin: -30px 0px 7.5px 0px;
 }
