@@ -7,5 +7,7 @@
 
 ### Preview
 
-<img src="./print-telas/print-celular.jpg">
-<img src="./print-telas/print-desktop.png">
+<p>
+  <img src="./print-telas/print-celular.jpg" width = 180px>
+  <img src="./print-telas/print-desktop.png" width = 600px>
+</p>
