@@ -6,8 +6,10 @@
 <p>HTML5, CSS3 e JavaScript</p>
 
 ### Preview
-
-<p>
-  <img src="./print-telas/print-celular.jpg" width = 180px>
-  <img src="./print-telas/print-desktop.png" width = 600px>
-</p>
+---
+<div>
+  <p>
+    <img src="./print-telas/print-celular.jpg" width = 180>
+    <img src="./print-telas/print-desktop.png" width = 600>
+  </p>
+</div>
